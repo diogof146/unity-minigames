@@ -11,6 +11,8 @@ TagManager:
   - Left
   - Tire
   - Wall
+  - Enemy
+  - Bullet
   layers:
   - Default
   - TransparentFX

@@ -26,6 +26,12 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/RobotsGameOver.unity
     guid: 2032512ca320b4531b4f8d659598bd01
+  - enabled: 1
+    path: Assets/Scenes/AirCombatGameOver.unity
+    guid: ec2a9ba1f07664cb78a923f27f6a2a72
+  - enabled: 1
+    path: Assets/Scenes/AirCombat.unity
+    guid: 28dcfc955a62f48d68dfae03eb183af1
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
   m_UseUCBPForAssetBundles: 0

@@ -18,6 +18,10 @@ public class MainMenu : MonoBehaviour {
     GUI.skin.label.alignment = TextAnchor.MiddleCenter;
     GUI.skin.label.hover.textColor = Color.cyan;
 
+    if (GUI.Button(new Rect(Screen.width / 2 - 250, Screen.height / 2 - 600, 500, 100), "Play AirCombat", GUI.skin.label)) {
+      SceneManager.LoadScene("AirCombat");
+    }
+
     if (GUI.Button(new Rect(Screen.width / 2 - 250, Screen.height / 2 - 450, 500, 100), "Play Fruits", GUI.skin.label)) {
       SceneManager.LoadScene("Fruits");
     }
@@ -30,7 +34,7 @@ public class MainMenu : MonoBehaviour {
       SceneManager.LoadScene("Robots");
     }
 
-    if (GUI.Button(new Rect(Screen.width / 2 - 250, Screen.height / 2 + 50, 500, 100), "Quit", GUI.skin.label)) {
+    if (GUI.Button(new Rect(Screen.width / 2 - 250, Screen.height / 2 + 200, 500, 100), "Quit", GUI.skin.label)) {
       Application.Quit();
     }
   }
