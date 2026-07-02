@@ -10,6 +10,7 @@ TagManager:
   - Right
   - Left
   - Tire
+  - Wall
   layers:
   - Default
   - TransparentFX

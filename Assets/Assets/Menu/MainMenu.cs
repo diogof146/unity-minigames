@@ -18,6 +18,10 @@ public class MainMenu : MonoBehaviour {
       SceneManager.LoadScene("Fruits");
     }
 
+    if (GUI.Button(new Rect(Screen.width / 2 - 250, Screen.height / 2 - 250, 500, 100), "Play Saboteur", GUI.skin.label)) {
+      SceneManager.LoadScene("Saboteur");
+    }
+
     if (GUI.Button(new Rect(Screen.width / 2 - 250, Screen.height / 2 + 50, 500, 100), "Quit", GUI.skin.label)) {
       Application.Quit();
     }
