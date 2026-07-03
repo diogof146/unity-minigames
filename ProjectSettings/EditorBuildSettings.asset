@@ -32,6 +32,12 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/AirCombat.unity
     guid: 28dcfc955a62f48d68dfae03eb183af1
+  - enabled: 1
+    path: Assets/Scenes/MobHouse.unity
+    guid: 08b0c45417611485d8d75ffd6a3bf67c
+  - enabled: 1
+    path: Assets/Scenes/MobHouseGameOver.unity
+    guid: 9aecd022937a044ab813cb30344ad066
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
   m_UseUCBPForAssetBundles: 0
