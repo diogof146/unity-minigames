@@ -18,32 +18,35 @@ public class MainMenu : MonoBehaviour {
     GUI.skin.label.alignment = TextAnchor.MiddleCenter;
     GUI.skin.label.hover.textColor = Color.cyan;
 
-    if (GUI.Button(new Rect(Screen.width / 2 - 250, Screen.height / 2 - 600, 500, 100), "Play AirCombat", GUI.skin.label)) {
+    if (GUI.Button(new Rect(Screen.width / 2 - 250, Screen.height / 2 - 700, 500, 100), "Play TurnBattle", GUI.skin.label)) {
+      SceneManager.LoadScene("TurnBattle");
+    }
+
+    if (GUI.Button(new Rect(Screen.width / 2 - 250, Screen.height / 2 - 550, 500, 100), "Play AirCombat", GUI.skin.label)) {
       SceneManager.LoadScene("AirCombat");
     }
 
-    if (GUI.Button(new Rect(Screen.width / 2 - 250, Screen.height / 2 - 450, 500, 100), "Play Fruits", GUI.skin.label)) {
+    if (GUI.Button(new Rect(Screen.width / 2 - 250, Screen.height / 2 - 400, 500, 100), "Play Fruits", GUI.skin.label)) {
       SceneManager.LoadScene("Fruits");
     }
 
-    if (GUI.Button(new Rect(Screen.width / 2 - 250, Screen.height / 2 - 300, 500, 100), "Play Saboteur", GUI.skin.label)) {
+    if (GUI.Button(new Rect(Screen.width / 2 - 250, Screen.height / 2 - 250, 500, 100), "Play Saboteur", GUI.skin.label)) {
       SceneManager.LoadScene("Saboteur");
     }
 
-    if (GUI.Button(new Rect(Screen.width / 2 - 250, Screen.height / 2 - 150, 500, 100), "Play MobHouse", GUI.skin.label)) {
+    if (GUI.Button(new Rect(Screen.width / 2 - 250, Screen.height / 2 - 100, 500, 100), "Play MobHouse", GUI.skin.label)) {
       SceneManager.LoadScene("MobHouse");
     }
 
-    if (GUI.Button(new Rect(Screen.width / 2 - 250, Screen.height / 2 - 0, 500, 100), "Play Robots", GUI.skin.label)) {
+    if (GUI.Button(new Rect(Screen.width / 2 - 250, Screen.height / 2 + 50, 500, 100), "Play Robots", GUI.skin.label)) {
       SceneManager.LoadScene("Robots");
     }
 
-    if (GUI.Button(new Rect(Screen.width / 2 - 250, Screen.height / 2 + 150, 500, 100), "Play Karts", GUI.skin.label)) {
+    if (GUI.Button(new Rect(Screen.width / 2 - 250, Screen.height / 2 + 200, 500, 100), "Play Karts", GUI.skin.label)) {
       SceneManager.LoadScene("Karts");
     }
 
-
-    if (GUI.Button(new Rect(Screen.width / 2 - 250, Screen.height / 2 + 300, 500, 100), "Quit", GUI.skin.label)) {
+    if (GUI.Button(new Rect(Screen.width / 2 - 250, Screen.height / 2 + 350, 500, 100), "Quit", GUI.skin.label)) {
       Application.Quit();
     }
   }
