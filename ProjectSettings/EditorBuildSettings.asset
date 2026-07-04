@@ -38,6 +38,12 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/MobHouseGameOver.unity
     guid: 9aecd022937a044ab813cb30344ad066
+  - enabled: 1
+    path: Assets/Scenes/KartsGameOver.unity
+    guid: 2e35a0a9058fd4384ae53788c9c1fd24
+  - enabled: 1
+    path: Assets/Scenes/Karts.unity
+    guid: ef41305bf424c4b7f82b720466f22242
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
   m_UseUCBPForAssetBundles: 0
