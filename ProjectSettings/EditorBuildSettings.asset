@@ -50,6 +50,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/TurnBattleGameOver.unity
     guid: d0198ac257ac9411b876bbf8ced211d9
+  - enabled: 1
+    path: Assets/Scenes/TableTennisGameOver.unity
+    guid: a69537ca38f8a46bfbc29de69a2c91ae
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
   m_UseUCBPForAssetBundles: 0
